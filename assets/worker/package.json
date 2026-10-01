@@ -1,0 +1,16 @@
+{
+  "name": "hubspot-deduplication-worker",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "HUBSPOT_DEDUPE_CONFIG=test/config.json node --test test/*.test.mjs",
+    "login": "python3 control.py login",
+    "status": "python3 control.py status"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}

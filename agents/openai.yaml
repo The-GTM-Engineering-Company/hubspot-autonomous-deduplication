@@ -1,0 +1,4 @@
+interface:
+  display_name: "HubSpot Autonomous Deduplication"
+  short_description: "Review CRM duplicates with a recoverable local worker"
+  default_prompt: "Use $hubspot-autonomous-deduplication to set up an autonomous company and contact duplicate review for this client."

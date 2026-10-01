@@ -1,0 +1,73 @@
+{
+  "clientSlug": "example-client",
+  "portalId": "123456",
+  "accountLabel": "Example Client",
+  "hubspotOrigin": "https://app.hubspot.com",
+  "cdpPort": 9447,
+  "authorization": {
+    "reference": "",
+    "merge": false,
+    "reject": false
+  },
+  "validated": false,
+  "queueScope": "HubSpot model (default), no filters",
+  "scopeVerified": false,
+  "emptyStatePattern": "No (potential )?duplicates|all caught up|No results",
+  "requiredFields": {
+    "companies": [
+      "Company Domain Name",
+      "LinkedIn Company Page",
+      "Country",
+      "City",
+      "Street Address",
+      "Number of Associated Contacts"
+    ],
+    "contacts": [
+      "Email",
+      "LinkedIn URL",
+      "Phone Number"
+    ]
+  },
+  "fieldAliases": {},
+  "placeholderEmailPatterns": [
+    "@placeholder\\.",
+    "@.*\\.invalid$",
+    "^(unknown|noreply|no-reply)@"
+  ],
+  "genericEmailLocals": [
+    "info",
+    "sales",
+    "support",
+    "admin",
+    "contact",
+    "hello",
+    "office",
+    "billing",
+    "team",
+    "service",
+    "marketing",
+    "hr",
+    "careers",
+    "accounts",
+    "reception",
+    "customerservice"
+  ],
+  "sharedCompanyDomains": [
+    "gmail.com",
+    "outlook.com",
+    "yahoo.com",
+    "hotmail.com",
+    "pr.gov"
+  ],
+  "contactsAfterCompanyExceptions": true,
+  "activeEnrollmentFields": {
+    "sequence": [
+      "Currently in sequence",
+      "Currently enrolled in a sequence"
+    ],
+    "campaign": [
+      "Campaign status",
+      "Currently in campaign"
+    ]
+  }
+}
