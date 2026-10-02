@@ -13,7 +13,7 @@ Merges cannot be undone. Review the [decision rules](references/decision-rules.m
 
 ## Get started
 
-Clone this private repository using your own authorized GitHub account:
+Clone this public repository. No GitHub account, invitation, or access request is needed:
 
 ```bash
 git clone https://github.com/The-GTM-Engineering-Company/hubspot-autonomous-deduplication.git
@@ -59,7 +59,7 @@ See [operations](references/operations.md) for recovery and terminal states. Rep
 - `scripts/bootstrap.py`: creates isolated client installations.
 - `references/`: setup, matching policy, operation, and lessons.
 - [CONTRIBUTING.md](CONTRIBUTING.md): development and customer-data boundaries.
-- [ACCESS.md](ACCESS.md): granting customer and contractor access.
+- [ACCESS.md](ACCESS.md): public access and contributor permissions.
 
 ## Validation and updates
 
@@ -71,4 +71,4 @@ npm test
 
 Tests use synthetic CRM fixtures, including browser tests; they do not validate a customer's live portal. HubSpot UI changes can require adapter updates and a new pilot. Pull repository updates separately from running client installations; bootstrap intentionally refuses to overwrite existing workers and their checkpoints.
 
-This repository is privately distributed. No open-source license is granted; use and redistribution are governed by your agreement with The GTM Engineering Company.
+You may download, run, and modify this skill for your own personal or internal business use. No separate access request or agreement is required for that use. Other rights are reserved by The GTM Engineering Company; this is not a general open-source license.
